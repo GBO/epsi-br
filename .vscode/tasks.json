@@ -21,21 +21,21 @@
 			"detail": "compilateur : g++"
 		},
 		{
-            "label": "build",
-            "type": "shell",
-            "command": "g++",
-            "args": [
+			"label": "build",
+			"type": "shell",
+			"command": "g++",
+			"args": [
 				"-I${workspaceFolder}/src/battleroyale/headers",
 				"-I${workspaceFolder}/src/fighters/headers",
 				"-g",
-                "${workspaceFolder}/src/battleroyale/*.cpp",
-                "-g",
-                "${workspaceFolder}/src/fighters/*.cpp",
-                "-g",
-                "${workspaceFolder}/src/main.cpp",
-                "-o",
-                "${workspaceFolder}/bin/battleroyale"
-            ],
+				"${workspaceFolder}/src/battleroyale/*.cpp",
+				"-g",
+				"${workspaceFolder}/src/fighters/*.cpp",
+				"-g",
+				"${workspaceFolder}/src/main.cpp",
+				"-o",
+				"${workspaceFolder}/bin/battleroyale"
+			],
 			"options": {
 				"cwd": "${workspaceFolder}"
 			},
@@ -43,6 +43,6 @@
 				"kind": "build",
 				"isDefault": true
 			},
-        }
+		}
 	]
 }
